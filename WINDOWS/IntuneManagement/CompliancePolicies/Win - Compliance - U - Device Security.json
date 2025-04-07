@@ -13,7 +13,7 @@
     "description":  null,
     "lastModifiedDateTime@odata.type":  "#DateTimeOffset",
     "lastModifiedDateTime":  "2024-04-10T19:41:40.4173035Z",
-    "displayName":  "Win - OIB - Compliance - U - Device Security - v3.1",
+    "displayName":  "Win - Compliance - U - Device Security",
     "version":  1,
     "passwordRequired":  false,
     "passwordBlockSimple":  false,

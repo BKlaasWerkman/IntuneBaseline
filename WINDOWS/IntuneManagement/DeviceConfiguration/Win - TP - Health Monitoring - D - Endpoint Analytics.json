@@ -17,7 +17,7 @@
     "createdDateTime@odata.type":  "#DateTimeOffset",
     "createdDateTime":  "2024-12-05T20:19:53.9919803Z",
     "description":  null,
-    "displayName":  "Win - OIB - TP - Health Monitoring - D - Endpoint Analytics - v3.4",
+    "displayName":  "Win - TP - Health Monitoring - D - Endpoint Analytics",
     "version":  1,
     "allowDeviceHealthMonitoring@odata.type":  "#microsoft.graph.enablement",
     "allowDeviceHealthMonitoring":  "enabled",

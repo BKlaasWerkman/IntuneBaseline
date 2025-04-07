@@ -13,7 +13,7 @@
     "description":  null,
     "lastModifiedDateTime@odata.type":  "#DateTimeOffset",
     "lastModifiedDateTime":  "2024-04-10T19:40:27.7210955Z",
-    "displayName":  "Win - OIB - Compliance - U - Defender for Endpoint - v3.1",
+    "displayName":  "Win - Compliance - U - Defender for Endpoint",
     "version":  1,
     "passwordRequired":  false,
     "passwordBlockSimple":  false,

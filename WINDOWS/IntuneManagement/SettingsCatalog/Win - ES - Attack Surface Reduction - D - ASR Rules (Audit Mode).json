@@ -1,15 +1,15 @@
 {
     "@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies(assignments(),settings())/$entity",
     "@odata.type":  "#microsoft.graph.deviceManagementConfigurationPolicy",
-    "@odata.id":  "deviceManagement/configurationPolicies(\u00277dfa8454-8c39-41e0-86ca-e6456c027be2\u0027)",
-    "@odata.editLink":  "deviceManagement/configurationPolicies(\u00277dfa8454-8c39-41e0-86ca-e6456c027be2\u0027)",
+    "@odata.id":  "deviceManagement/configurationPolicies(\u00271bc83909-93d9-4891-a6a3-5c103ba8e89b\u0027)",
+    "@odata.editLink":  "deviceManagement/configurationPolicies(\u00271bc83909-93d9-4891-a6a3-5c103ba8e89b\u0027)",
     "createdDateTime@odata.type":  "#DateTimeOffset",
-    "createdDateTime":  "2024-08-22T17:56:38.3902801Z",
+    "createdDateTime":  "2023-08-09T15:01:18.7323596Z",
     "creationSource":  null,
-    "description":  "DO NOT ASSIGN THIS POLICY WITHOUT VALIDATING VIA AUDIT MODE FIRST!\nhttps://learn.microsoft.com/en-us/defender-endpoint/attack-surface-reduction-rules-deployment-operationalize",
+    "description":  "",
     "lastModifiedDateTime@odata.type":  "#DateTimeOffset",
-    "lastModifiedDateTime":  "2024-12-05T19:36:30.1375647Z",
-    "name":  "Win - OIB - ES - Attack Surface Reduction - D - ASR Rules (L2) - v3.3",
+    "lastModifiedDateTime":  "2024-12-05T19:36:18.3807998Z",
+    "name":  "Win - ES - Attack Surface Reduction - D - ASR Rules (Audit Mode)",
     "platforms@odata.type":  "#microsoft.graph.deviceManagementConfigurationPlatforms",
     "platforms":  "windows10",
     "priorityMetaData":  null,
@@ -20,7 +20,7 @@
     "settingCount":  2,
     "technologies@odata.type":  "#microsoft.graph.deviceManagementConfigurationTechnologies",
     "technologies":  "mdm,microsoftSense",
-    "id":  "7dfa8454-8c39-41e0-86ca-e6456c027be2",
+    "id":  "1bc83909-93d9-4891-a6a3-5c103ba8e89b",
     "templateReference":  {
                               "@odata.type":  "#microsoft.graph.deviceManagementConfigurationPolicyTemplateReference",
                               "templateId":  "e8c053d6-9f95-42b1-a7f1-ebfd71c67a4b_1",
@@ -29,17 +29,20 @@
                               "templateDisplayName":  "Attack Surface Reduction Rules",
                               "templateDisplayVersion":  "Version 1"
                           },
-    "assignments@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies(\u00277dfa8454-8c39-41e0-86ca-e6456c027be2\u0027)/assignments",
-    "assignments@odata.associationLink":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u00277dfa8454-8c39-41e0-86ca-e6456c027be2\u0027)/assignments/$ref",
-    "assignments@odata.navigationLink":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u00277dfa8454-8c39-41e0-86ca-e6456c027be2\u0027)/assignments",
-    "settings@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies(\u00277dfa8454-8c39-41e0-86ca-e6456c027be2\u0027)/settings",
-    "settings@odata.associationLink":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u00277dfa8454-8c39-41e0-86ca-e6456c027be2\u0027)/settings/$ref",
-    "settings@odata.navigationLink":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u00277dfa8454-8c39-41e0-86ca-e6456c027be2\u0027)/settings",
+    "assignments@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies(\u00271bc83909-93d9-4891-a6a3-5c103ba8e89b\u0027)/assignments",
+    "assignments@odata.associationLink":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u00271bc83909-93d9-4891-a6a3-5c103ba8e89b\u0027)/assignments/$ref",
+    "assignments@odata.navigationLink":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u00271bc83909-93d9-4891-a6a3-5c103ba8e89b\u0027)/assignments",
+    "assignments":  [
+
+                    ],
+    "settings@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies(\u00271bc83909-93d9-4891-a6a3-5c103ba8e89b\u0027)/settings",
+    "settings@odata.associationLink":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u00271bc83909-93d9-4891-a6a3-5c103ba8e89b\u0027)/settings/$ref",
+    "settings@odata.navigationLink":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u00271bc83909-93d9-4891-a6a3-5c103ba8e89b\u0027)/settings",
     "settings":  [
                      {
                          "@odata.type":  "#microsoft.graph.deviceManagementConfigurationSetting",
-                         "@odata.id":  "deviceManagement/configurationPolicies(\u00277dfa8454-8c39-41e0-86ca-e6456c027be2\u0027)/settings(\u00270\u0027)",
-                         "@odata.editLink":  "deviceManagement/configurationPolicies(\u00277dfa8454-8c39-41e0-86ca-e6456c027be2\u0027)/settings(\u00270\u0027)",
+                         "@odata.id":  "deviceManagement/configurationPolicies(\u00271bc83909-93d9-4891-a6a3-5c103ba8e89b\u0027)/settings(\u00270\u0027)",
+                         "@odata.editLink":  "deviceManagement/configurationPolicies(\u00271bc83909-93d9-4891-a6a3-5c103ba8e89b\u0027)/settings(\u00270\u0027)",
                          "id":  "0",
                          "settingInstance":  {
                                                  "@odata.type":  "#microsoft.graph.deviceManagementConfigurationGroupSettingCollectionInstance",
@@ -62,7 +65,7 @@
                                                                                                               "choiceSettingValue":  {
                                                                                                                                          "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                                                                                                                                          "settingValueTemplateReference":  null,
-                                                                                                                                         "value":  "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutionofpotentiallyobfuscatedscripts_warn",
+                                                                                                                                         "value":  "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutionofpotentiallyobfuscatedscripts_audit",
                                                                                                                                          "children@odata.type":  "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
                                                                                                                                          "children":  [
 
@@ -76,7 +79,7 @@
                                                                                                               "choiceSettingValue":  {
                                                                                                                                          "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                                                                                                                                          "settingValueTemplateReference":  null,
-                                                                                                                                         "value":  "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockwin32apicallsfromofficemacros_block",
+                                                                                                                                         "value":  "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockwin32apicallsfromofficemacros_audit",
                                                                                                                                          "children@odata.type":  "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
                                                                                                                                          "children":  [
 
@@ -104,7 +107,7 @@
                                                                                                               "choiceSettingValue":  {
                                                                                                                                          "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                                                                                                                                          "settingValueTemplateReference":  null,
-                                                                                                                                         "value":  "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficecommunicationappfromcreatingchildprocesses_warn",
+                                                                                                                                         "value":  "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficecommunicationappfromcreatingchildprocesses_audit",
                                                                                                                                          "children@odata.type":  "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
                                                                                                                                          "children":  [
 
@@ -118,7 +121,7 @@
                                                                                                               "choiceSettingValue":  {
                                                                                                                                          "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                                                                                                                                          "settingValueTemplateReference":  null,
-                                                                                                                                         "value":  "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockallofficeapplicationsfromcreatingchildprocesses_block",
+                                                                                                                                         "value":  "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockallofficeapplicationsfromcreatingchildprocesses_audit",
                                                                                                                                          "children@odata.type":  "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
                                                                                                                                          "children":  [
 
@@ -132,7 +135,7 @@
                                                                                                               "choiceSettingValue":  {
                                                                                                                                          "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                                                                                                                                          "settingValueTemplateReference":  null,
-                                                                                                                                         "value":  "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockadobereaderfromcreatingchildprocesses_block",
+                                                                                                                                         "value":  "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockadobereaderfromcreatingchildprocesses_audit",
                                                                                                                                          "children@odata.type":  "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
                                                                                                                                          "children":  [
 
@@ -160,7 +163,7 @@
                                                                                                               "choiceSettingValue":  {
                                                                                                                                          "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                                                                                                                                          "settingValueTemplateReference":  null,
-                                                                                                                                         "value":  "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockjavascriptorvbscriptfromlaunchingdownloadedexecutablecontent_block",
+                                                                                                                                         "value":  "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockjavascriptorvbscriptfromlaunchingdownloadedexecutablecontent_audit",
                                                                                                                                          "children@odata.type":  "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
                                                                                                                                          "children":  [
 
@@ -174,7 +177,7 @@
                                                                                                               "choiceSettingValue":  {
                                                                                                                                          "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                                                                                                                                          "settingValueTemplateReference":  null,
-                                                                                                                                         "value":  "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockuntrustedunsignedprocessesthatrunfromusb_block",
+                                                                                                                                         "value":  "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockuntrustedunsignedprocessesthatrunfromusb_audit",
                                                                                                                                          "children@odata.type":  "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
                                                                                                                                          "children":  [
 
@@ -188,7 +191,7 @@
                                                                                                               "choiceSettingValue":  {
                                                                                                                                          "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                                                                                                                                          "settingValueTemplateReference":  null,
-                                                                                                                                         "value":  "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockpersistencethroughwmieventsubscription_block",
+                                                                                                                                         "value":  "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockpersistencethroughwmieventsubscription_audit",
                                                                                                                                          "children@odata.type":  "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
                                                                                                                                          "children":  [
 
@@ -216,7 +219,7 @@
                                                                                                               "choiceSettingValue":  {
                                                                                                                                          "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                                                                                                                                          "settingValueTemplateReference":  null,
-                                                                                                                                         "value":  "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockabuseofexploitedvulnerablesigneddrivers_block",
+                                                                                                                                         "value":  "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockabuseofexploitedvulnerablesigneddrivers_audit",
                                                                                                                                          "children@odata.type":  "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
                                                                                                                                          "children":  [
 
@@ -230,7 +233,7 @@
                                                                                                               "choiceSettingValue":  {
                                                                                                                                          "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                                                                                                                                          "settingValueTemplateReference":  null,
-                                                                                                                                         "value":  "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockprocesscreationsfrompsexecandwmicommands_warn",
+                                                                                                                                         "value":  "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockprocesscreationsfrompsexecandwmicommands_audit",
                                                                                                                                          "children@odata.type":  "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
                                                                                                                                          "children":  [
 
@@ -244,7 +247,7 @@
                                                                                                               "choiceSettingValue":  {
                                                                                                                                          "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                                                                                                                                          "settingValueTemplateReference":  null,
-                                                                                                                                         "value":  "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficeapplicationsfromcreatingexecutablecontent_block",
+                                                                                                                                         "value":  "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficeapplicationsfromcreatingexecutablecontent_audit",
                                                                                                                                          "children@odata.type":  "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
                                                                                                                                          "children":  [
 
@@ -258,7 +261,7 @@
                                                                                                               "choiceSettingValue":  {
                                                                                                                                          "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                                                                                                                                          "settingValueTemplateReference":  null,
-                                                                                                                                         "value":  "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficeapplicationsfrominjectingcodeintootherprocesses_warn",
+                                                                                                                                         "value":  "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficeapplicationsfrominjectingcodeintootherprocesses_audit",
                                                                                                                                          "children@odata.type":  "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
                                                                                                                                          "children":  [
 
@@ -286,7 +289,7 @@
                                                                                                               "choiceSettingValue":  {
                                                                                                                                          "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                                                                                                                                          "settingValueTemplateReference":  null,
-                                                                                                                                         "value":  "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_useadvancedprotectionagainstransomware_block",
+                                                                                                                                         "value":  "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_useadvancedprotectionagainstransomware_audit",
                                                                                                                                          "children@odata.type":  "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
                                                                                                                                          "children":  [
 
@@ -300,7 +303,7 @@
                                                                                                               "choiceSettingValue":  {
                                                                                                                                          "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                                                                                                                                          "settingValueTemplateReference":  null,
-                                                                                                                                         "value":  "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutablecontentfromemailclientandwebmail_block",
+                                                                                                                                         "value":  "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutablecontentfromemailclientandwebmail_audit",
                                                                                                                                          "children@odata.type":  "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
                                                                                                                                          "children":  [
 
@@ -311,13 +314,13 @@
                                                                                      }
                                                                                  ]
                                              },
-                         "settingDefinitions@odata.associationLink":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u00277dfa8454-8c39-41e0-86ca-e6456c027be2\u0027)/settings(\u00270\u0027)/settingDefinitions/$ref",
-                         "settingDefinitions@odata.navigationLink":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u00277dfa8454-8c39-41e0-86ca-e6456c027be2\u0027)/settings(\u00270\u0027)/settingDefinitions"
+                         "settingDefinitions@odata.associationLink":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u00271bc83909-93d9-4891-a6a3-5c103ba8e89b\u0027)/settings(\u00270\u0027)/settingDefinitions/$ref",
+                         "settingDefinitions@odata.navigationLink":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u00271bc83909-93d9-4891-a6a3-5c103ba8e89b\u0027)/settings(\u00270\u0027)/settingDefinitions"
                      },
                      {
                          "@odata.type":  "#microsoft.graph.deviceManagementConfigurationSetting",
-                         "@odata.id":  "deviceManagement/configurationPolicies(\u00277dfa8454-8c39-41e0-86ca-e6456c027be2\u0027)/settings(\u00271\u0027)",
-                         "@odata.editLink":  "deviceManagement/configurationPolicies(\u00277dfa8454-8c39-41e0-86ca-e6456c027be2\u0027)/settings(\u00271\u0027)",
+                         "@odata.id":  "deviceManagement/configurationPolicies(\u00271bc83909-93d9-4891-a6a3-5c103ba8e89b\u0027)/settings(\u00271\u0027)",
+                         "@odata.editLink":  "deviceManagement/configurationPolicies(\u00271bc83909-93d9-4891-a6a3-5c103ba8e89b\u0027)/settings(\u00271\u0027)",
                          "id":  "1",
                          "settingInstance":  {
                                                  "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
@@ -340,36 +343,36 @@
                                                                                          ]
                                                                         }
                                              },
-                         "settingDefinitions@odata.associationLink":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u00277dfa8454-8c39-41e0-86ca-e6456c027be2\u0027)/settings(\u00271\u0027)/settingDefinitions/$ref",
-                         "settingDefinitions@odata.navigationLink":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u00277dfa8454-8c39-41e0-86ca-e6456c027be2\u0027)/settings(\u00271\u0027)/settingDefinitions"
+                         "settingDefinitions@odata.associationLink":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u00271bc83909-93d9-4891-a6a3-5c103ba8e89b\u0027)/settings(\u00271\u0027)/settingDefinitions/$ref",
+                         "settingDefinitions@odata.navigationLink":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u00271bc83909-93d9-4891-a6a3-5c103ba8e89b\u0027)/settings(\u00271\u0027)/settingDefinitions"
                      }
                  ],
     "#microsoft.graph.assign":  {
                                     "title":  "microsoft.graph.assign",
-                                    "target":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u00277dfa8454-8c39-41e0-86ca-e6456c027be2\u0027)/microsoft.graph.assign"
+                                    "target":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u00271bc83909-93d9-4891-a6a3-5c103ba8e89b\u0027)/microsoft.graph.assign"
                                 },
     "#microsoft.graph.clearEnrollmentTimeDeviceMembershipTarget":  {
                                                                        "title":  "microsoft.graph.clearEnrollmentTimeDeviceMembershipTarget",
-                                                                       "target":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u00277dfa8454-8c39-41e0-86ca-e6456c027be2\u0027)/microsoft.graph.clearEnrollmentTimeDeviceMembershipTarget"
+                                                                       "target":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u00271bc83909-93d9-4891-a6a3-5c103ba8e89b\u0027)/microsoft.graph.clearEnrollmentTimeDeviceMembershipTarget"
                                                                    },
     "#microsoft.graph.createCopy":  {
                                         "title":  "microsoft.graph.createCopy",
-                                        "target":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u00277dfa8454-8c39-41e0-86ca-e6456c027be2\u0027)/microsoft.graph.createCopy"
+                                        "target":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u00271bc83909-93d9-4891-a6a3-5c103ba8e89b\u0027)/microsoft.graph.createCopy"
                                     },
     "#microsoft.graph.reorder":  {
                                      "title":  "microsoft.graph.reorder",
-                                     "target":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u00277dfa8454-8c39-41e0-86ca-e6456c027be2\u0027)/microsoft.graph.reorder"
+                                     "target":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u00271bc83909-93d9-4891-a6a3-5c103ba8e89b\u0027)/microsoft.graph.reorder"
                                  },
     "#microsoft.graph.retrieveEnrollmentTimeDeviceMembershipTarget":  {
                                                                           "title":  "microsoft.graph.retrieveEnrollmentTimeDeviceMembershipTarget",
-                                                                          "target":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u00277dfa8454-8c39-41e0-86ca-e6456c027be2\u0027)/microsoft.graph.retrieveEnrollmentTimeDeviceMembershipTarget"
+                                                                          "target":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u00271bc83909-93d9-4891-a6a3-5c103ba8e89b\u0027)/microsoft.graph.retrieveEnrollmentTimeDeviceMembershipTarget"
                                                                       },
     "#microsoft.graph.setEnrollmentTimeDeviceMembershipTarget":  {
                                                                      "title":  "microsoft.graph.setEnrollmentTimeDeviceMembershipTarget",
-                                                                     "target":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u00277dfa8454-8c39-41e0-86ca-e6456c027be2\u0027)/microsoft.graph.setEnrollmentTimeDeviceMembershipTarget"
+                                                                     "target":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u00271bc83909-93d9-4891-a6a3-5c103ba8e89b\u0027)/microsoft.graph.setEnrollmentTimeDeviceMembershipTarget"
                                                                  },
     "#microsoft.graph.retrieveLatestUpgradeDefaultBaselinePolicy":  {
                                                                         "title":  "microsoft.graph.retrieveLatestUpgradeDefaultBaselinePolicy",
-                                                                        "target":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u00277dfa8454-8c39-41e0-86ca-e6456c027be2\u0027)/microsoft.graph.retrieveLatestUpgradeDefaultBaselinePolicy"
+                                                                        "target":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u00271bc83909-93d9-4891-a6a3-5c103ba8e89b\u0027)/microsoft.graph.retrieveLatestUpgradeDefaultBaselinePolicy"
                                                                     }
 }

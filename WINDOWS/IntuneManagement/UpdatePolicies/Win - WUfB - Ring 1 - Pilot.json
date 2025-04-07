@@ -17,7 +17,7 @@
     "createdDateTime@odata.type":  "#DateTimeOffset",
     "createdDateTime":  "2023-10-27T15:13:33.1560519Z",
     "description":  "Devices in this ring recieve updates immediately after release with 1 day grace period before a forced reboot.",
-    "displayName":  "Win - OIB - WUfB - Ring 1 - Pilot - v3.0",
+    "displayName":  "Win - WUfB - Ring 1 - Pilot",
     "version":  1,
     "deliveryOptimizationMode@odata.type":  "#microsoft.graph.windowsDeliveryOptimizationMode",
     "deliveryOptimizationMode":  "userDefined",

@@ -17,7 +17,7 @@
     "createdDateTime@odata.type":  "#DateTimeOffset",
     "createdDateTime":  "2023-10-27T15:13:33.3648624Z",
     "description":  "Devices in this ring receive updates 3 days after release and have a 0-day deadline on install with 2 day grace period before a forced reboot.",
-    "displayName":  "Win - OIB - WUfB - Ring 2 - UAT - v3.0",
+    "displayName":  "Win - WUfB - Ring 2 - UAT",
     "version":  1,
     "deliveryOptimizationMode@odata.type":  "#microsoft.graph.windowsDeliveryOptimizationMode",
     "deliveryOptimizationMode":  "userDefined",
